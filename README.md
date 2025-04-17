@@ -1,4 +1,4 @@
-This repo contains a minimal reproduce example for the bug when consuming vscode lm api with claude 3.5
+This repo contains a minimal reproduce example for the bug when consuming vscode lm api with claude 3.5. The github copilot fails to generate streaming response when the request contains tool call with empty parameters.
 
 ## Steps to reproduce
 - Clone, build and run the repo
